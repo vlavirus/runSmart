@@ -44,10 +44,6 @@
 	&__icon {
 		&_animated {
 			animation: heartbeat 1.5s ease infinite;
-			// animation-name: heartbeat;
-			// animation-duration: 1.5s;
-			// animation-timing-function: ease;
-			// animation-iteration-count: infinite;
 			&:hover {
 				animation-play-state: paused;
 			}
@@ -61,7 +57,7 @@
 			flex-direction: column;
 		}
 		&__card {
-			margin: 0 auto;
+			margin: 10px auto;
 			width: 70%;
 		}
 	}
